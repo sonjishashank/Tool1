@@ -1,1 +1,1 @@
-web: gunicorn Tool1.py:app
+web: python Tool1.py
