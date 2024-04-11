@@ -82,7 +82,3 @@ def generate_crime_visualizations(district):
     )
 
     return jsonify({'crime_map': fig_map.to_json(), 'crime_heatmap': fig_heatmap.to_json()})
-
-
-if __name__ == '__main__':
-    app.run(debug=True)
