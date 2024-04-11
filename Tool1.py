@@ -30,7 +30,7 @@ def fetch_data_from_postgresql(district_name):
 
 
 
-@app.route('/crime_visualizations/<district>', methods=['GET'])
+@app.route('/', methods=['GET'])
 def generate_crime_visualizations(district):
     data = fetch_data_from_postgresql(district)
     if not data:
