@@ -10,10 +10,10 @@ CORS(app)
 # Connect to your PostgreSQL database
 def connect_to_postgresql():
     connection = psycopg2.connect(
-        host="aws-0-ap-southeast-1.pooler.supabase.com",
-        database="postgres",
-        user="postgres.faatiflkdkozhenblufj",
-        password="##Sonji@2534##"
+        host="dpg-cobrpren7f5s73ftpqrg-a.oregon-postgres.render.com",
+        database="sheshank_sonji",
+        user="sheshank_sonji_user",
+        password="Lo2Ze5zVZSRPGxDLCg5WAKUXUfxo7rrZ"
     )
     return connection
 
